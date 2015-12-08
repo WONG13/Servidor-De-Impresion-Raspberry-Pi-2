@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<p id = "titulo"><Strong>Servidor web de impresión<strong></p>
+<div id = "registro"><a id = "ingresarl" href = "">Registrarse</a></div>
+<title>Portada Rasperry</title>
+</head>
+
+
+
+
+<body>
+<div id = "centro">
+<table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100" height ="0" scope="row"><div align="right"><h3>Usuario:</h3>
+    </div></td>
+    <td height ="0" ><form id="form1" name="form1" method="post" action=""><div align="center">
+      <label for="usuario"></label><div align="center">
+       <input type="text" name="usuario" id="usuario" />
+    </form></div></td>
+  </tr>
+
+  <tr>
+    <td width="100" height ="0" scope="row"><div align="right">
+      <h3><strong> Password:</strong></h3>
+    </div></td>
+    <td height ="0" ><form id="form2" name="form2" method="post" action="">
+      <label for="pass"></label><div align="center">
+        <input type="text" name="pass" id="pass" />
+    </form></div></td>
+  </tr>
+
+</table>
+<div id = "ingresar"><a id = "ingresarl" href = "">Ingresar</a>
+</div>
+</div>
+
+<a href="http://www.accuweather.com/en/mx/tijuana/241912/weather-forecast/241912" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1430291068793" class="aw-widget-current"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1430291068793"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+
+<div id = "welcome"><img src = "Raspi_Colour_R.PNG"/><p id = "welcomep"><Strong>Imprime donde sea que te encuentres<strong></p>
+</div>
+</body>
+
+
+
+<style type="text/css">
+#registro{
+font-family: Tahoma, sans-serif;
+font-size: 20px;
+text-align: center; 
+float:right;
+display: inline-block;
+margin-top: 1px; 
+margin-right: 1px; 
+position: relative;
+top:-95px;
+right:-8px;   
+height: 30px;
+width: 130px;
+border-radius: 5px;
+border:2px solid #996633 ;
+background:url(wood.jpg) no-repeat center ;
+background-size: cover;
+}
+
+#registro:hover{
+background-color: #996633;
+}
+
+td,th {
+font-family: Tahoma, sans-serif;
+color: white;
+text-shadow:
+       0px 0px 0 #000,
+     0px 0 0 #000,  
+      0px 0px 0 #000,
+      0px 0px 0 #000,
+       1px 1px 0 #000;
+}
+#titulo{
+font-family: Tahoma, sans-serif;
+font-size: 30px; 
+text-align: center;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#centro {
+display: inline-block;  
+margin: 1px, 2px, 0px, 0px ;
+height: 170px;
+width: 350px;
+border-radius: 5px;
+border:4px solid #FF7111 ;
+background-color: #FF822F;
+}
+body{
+background:url(Backg.jpg) no-repeat center fixed;
+background-size: cover;
+}
+
+#ingresar{
+display: block; 
+height: 20px;
+width: 70px; 
+color:black;
+text-align: center;
+font-style: bold; 
+margin: auto;
+background-color: #FFFFFF;
+border:2px solid #CCCCCC;
+border-radius: 10%;
+}
+#ingresar:hover{
+background-color: #CCCCCC;
+}
+
+#ingresarl:link{
+  text-decoration: none;
+  color:black;
+}
+#ingresarl:visited{
+  text-decoration: none;
+  color:black;
+}
+#awcc1430291068793{
+float: right; 
+display: inline-block; 
+position: relative;
+right:-148px;
+margin-right: 2px;
+height: 170px;
+}
+
+img{
+  display: block; 
+  margin: auto; 
+  height: 100px;
+  width: 100px;
+}
+#welcomep{
+  font-family: Tahoma, sans-serif;
+font-size: 40px; 
+text-align: center;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+
+</style>
+
+</html>
