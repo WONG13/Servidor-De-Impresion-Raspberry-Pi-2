@@ -1,0 +1,13 @@
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+}
+
+div {
+display: block  
+margin: auto
+height: 600px;
+width: 600px;
+border-radius: 25%;
+color: #FF822F;
+}
