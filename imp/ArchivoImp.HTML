@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<p id = "titulo"><Strong>Servidor web de impresión<strong></p>
+<a id = "ingresarl" href = "Portada1.php"><img id = "btnhome" src="homebtn.PNG"></a>
+<title>Servidor Imp/Seleccionar</title>
+</head>
+
+<body>
+	<div id = "centro">
+    <div id = "subir">
+		<input type="file" id="myFile">
+  </div>
+	</div>
+
+
+</body>
+
+
+<style type="text/css">
+body{
+background:url(Backg.jpg) no-repeat center fixed;
+background-size: cover;
+}
+input{
+	margin:auto;
+}
+#titulo{
+font-family: Tahoma, sans-serif;
+font-size: 30px; 
+text-align: center;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+#btnhome{
+float:left;
+display: inline;
+height: 70px;
+width: 70px; 
+margin-top: 1px; 
+margin-right: 1px; 
+position: relative;
+top:-95px;
+right:-8px;   
+height: 70px;
+width: 70px;
+}
+#centro {
+display: block;  
+margin: auto;
+height: 300px;
+width: 300px;
+border-radius: 10px;
+border:4px solid #FF7111 ;
+background-color: #FF822F;
+}
+#subir{
+display: inline;  
+margin: auto;
+border-radius: 10px;
+border:4px solid #FF7111 ;
+position: relative;
+top:260px;
+right:-27px;
+}
+
+</style>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myFile");
+    x.disabled = true;
+}
+</script>
+
+</html>
